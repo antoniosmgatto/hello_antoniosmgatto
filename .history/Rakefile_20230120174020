@@ -1,0 +1,5 @@
+require "rask/testtask"
+
+rake::TestTask.new do |t|
+    t.libs << "test"
+end

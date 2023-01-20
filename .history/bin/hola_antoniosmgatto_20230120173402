@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "hola_antoniosmgatto"
+puts HolaAntoniosmgatto.hi(ARGS[0])
